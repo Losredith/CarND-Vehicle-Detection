@@ -1,0 +1,9 @@
+
+*.png
+training_data/non-vehicles/Extras/.DS_Store
+training_data/non-vehicles/GTI/.DS_Store
+training_data/vehicles/GTI_Far/.DS_Store
+training_data/vehicles/GTI_Left/.DS_Store
+training_data/vehicles/GTI_MiddleClose/.DS_Store
+training_data/vehicles/GTI_Right/.DS_Store
+training_data/vehicles/KITTI_extracted/.DS_Store
