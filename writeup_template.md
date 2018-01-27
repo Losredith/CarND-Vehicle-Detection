@@ -119,7 +119,7 @@ Here's a [link to my video result](./output_videos/output.mp4)
 
 ####2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
 
-I recorded the positions of detections in each frame of the video by a class called `Vehicle_Detect`. It recorded the last 15 frames detections positions and  add all the positions to heatmap. The threshold for the heatmap is set to 1 + len(det.prev_rects)//2.
+I recorded the positions of detections in each frame of the video by a class called `Vehicle_Detect`. It recorded the last 15 frames detections positions and  add all the positions to heatmap. The threshold for the heatmap is set to 1 + len(det.prev_rects)//2. This idea comes from `https://github.com/jeremy-shannon/CarND-Vehicle-Detection` which have excellent performance.
 
 ### Here is one frame and corresponding heatmap:
 
