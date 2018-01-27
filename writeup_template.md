@@ -80,19 +80,19 @@ The code for this step is contained in in lines 31 through 97 of the file called
 
 I adapted the method find_cars from the lesson materials which is more efficiently. The window overlap was set to 50% in both X and Y directions.  
 I decided to search the image by 4 parts:
-#####Part1:
+#####Part1:  
 `scale = 1.0`
 `y_start_stop = [350, 700]`
 ![alt text][image3]
-#####Part2:
+#####Part2:  
 `scale = 1.5`
 `y_start_stop = [400, None]`
 ![alt text][image8]
-#####Part3:
+#####Part3:  
 `scale = 2.0`
 `y_start_stop = [450, None]`
 ![alt text][image9]
-#####Part4:
+#####Part4:  
 `scale = 3.0`
 `y_start_stop = [550, None]`
 ![alt text][image10]
